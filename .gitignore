@@ -1,3 +1,7 @@
+# user defined ignore files
+correlation_coefficient_formula.svg
+zomato.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
