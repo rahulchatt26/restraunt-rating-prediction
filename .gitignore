@@ -1,6 +1,9 @@
 # user defined ignore files
 correlation_coefficient_formula.svg
 zomato.csv
+artifact/
+logs/
+test.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
