@@ -3,7 +3,7 @@ from restaurant.entity.artifact_entity import DataIngestionArtifact
 from restaurant.exception import RestaurantException
 from restaurant.logger import logging
 import os, sys
-from restaurant.utils import get_collection_as_dataframe
+from restaurant.utils import get_collection_as_dataframe, drop_columns, converting_columns
 import pandas as pd
 from sklearn.model_selection import train_test_split
 class DataIngestion:
@@ -21,7 +21,12 @@ class DataIngestion:
             df:pd.DataFrame = get_collection_as_dataframe(
                 database_name=self.data_ingestion_config.database_name,
                 collection_name = self.data_ingestion_config.collection_name)
-            
+            logging.info("Removing unwanted columns from the dataset")
+            df = drop_columns(df=df)
+
+            logging.info(f"Converting datatype for columns")
+            df = converting_columns(df=df)
+
             logging.info("Save data in feature store")
             #Save data in feature store
             logging.info("Create feature store folder if not available")
@@ -35,7 +40,7 @@ class DataIngestion:
 
             logging.info("split dataset into train and test set")
             #split dataset into train and test set
-            train_df, test_df = train_test_split(df, test_size=self.data_ingestion_config.test_size)
+            train_df, test_df = train_test_split(df, test_size=self.data_ingestion_config.test_size,random_state=10)
 
             logging.info("create dataset directory folder if not available")
             #create dataset directory folder if not available
@@ -58,4 +63,4 @@ class DataIngestion:
             logging.info(f"Data ingestion artifact: {data_ingestion_artifact}")
             return data_ingestion_artifact
         except Exception as e:
-            raise(e, sys)
+            raise RestaurantException(e, sys)

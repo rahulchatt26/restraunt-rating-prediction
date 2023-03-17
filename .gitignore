@@ -4,6 +4,7 @@ zomato.csv
 artifact/
 logs/
 test.ipynb
+saved_models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -2,4 +2,8 @@ python-dotenv
 pandas 
 pymongo[srv]
 scikit-learn
+matplotlib
+scipy
+PyYAML
+dill
 -e .
