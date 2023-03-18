@@ -1,0 +1,16 @@
+artifact
+logs
+zomato.csv
+prediction
+saved_models
+*.egg-info
+.env
+batch_prediction.py
+single_prediction.py
+data_dump.py
+main.py
+README.md
+train.py
+test.ipynb
+image.jpg
+correlation_coefficient_formula.svg
