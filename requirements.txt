@@ -6,4 +6,6 @@ matplotlib
 scipy
 PyYAML
 dill
+Flask
+Flask-Cors
 -e .

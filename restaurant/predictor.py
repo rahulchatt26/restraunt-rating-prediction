@@ -11,7 +11,6 @@ class ModelResolver:
 
         self.model_registry=model_registry
         os.makedirs(self.model_registry,exist_ok=True)
-        print(os.path.join(self.model_registry))
         self.transformer_dir_name = transformer_dir_name
         self.model_dir_name=model_dir_name
 
