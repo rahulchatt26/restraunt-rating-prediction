@@ -1,9 +1,9 @@
 # Restaurant Rating Prediction
-!['images\image.jpg']
+!['image'](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/image.jpg)
 
 ### Detailed video on code explanation
 ```
-https://drive.google.com/file/d/11-GG7Cn-C0IdIJ-fW-5mxtFrp-BHXBbi/view?usp=share_link
+https://drive.google.com/file/d/1SXSyaaYOz3TzEcHx7spaTbua6rZ2Bpdk/view?usp=share_link
 ```
 
 ### Step 1 - Install the requirements
@@ -122,7 +122,7 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 By running the Airflow link you will get this interface
 
-!['images\airflow.png']
+!['image'](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/airflow.png)
 
 
 For real-time prediction you can use the above Elastic Beanstalk link 
@@ -132,37 +132,37 @@ or
 1. Run this project in local by executing the code "python app.py"
 2. In browser open "http://127.0.0.1:8080/" link
 3. You will get an UI displayed below:
-!['images\homepage1.png']
-!['images\homepage1.png']
+!['Homepage1'](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/homepage1.png)
+!['Homepage2'](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/homepage%202.png)
 4. Prediction page will displayed below:
-!['images\prediction.png']
+!['Prediction'](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/prediction.png)
 
 
 
 ## Data Collections
 
-![image](https://user-images.githubusercontent.com/102937478/216246951-7c187908-a8b0-4c64-8f37-6549c49e20fa.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/DATA%20COLLECTIONS.png)
 
 ## Project Archietecture
-![Architect_Batch_Prediction](https://user-images.githubusercontent.com/102937478/218516997-dc84fe49-17ef-44ce-958f-c271d73442ba.jpg)
+![Architect_Batch_Prediction](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/Project%20Archietecture.jpg)
 
-![image](https://user-images.githubusercontent.com/102937478/216757352-0d9a4c4c-b0c3-43c1-9bf8-92ee9a6df352.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/Project%20Archietecture%202.png)
 
 
 #### Real-time Prediction
 
-![image](https://user-images.githubusercontent.com/102937478/216313545-4db56ed7-63f0-4476-b518-10ed51a32f17.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/Real-time%20Prediction.png)
 
 
 ## Deployment Archietecture
-![Screenshot_19-overlay](https://user-images.githubusercontent.com/102937478/216320740-d0494ad2-c99c-4a1b-91e3-01b86c0deaee.png)
+![Screenshot_19-overlay](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/Deployment%20Archietecture.png)
 
-![image](https://user-images.githubusercontent.com/102937478/216247497-0d54dd7b-3916-4670-8465-3f1fcf6e0a9a.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/Deployment%20Archietecture%202.png)
 
 ## Pipeline
-![image](https://user-images.githubusercontent.com/102937478/216771378-4990ae29-e5c2-44df-9af4-abb1724e26b5.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/PIPELINE.png)
 
-![image](https://user-images.githubusercontent.com/102937478/216771387-5ff808e2-fda3-449c-b444-37d064d552e4.png)
+![image](https://github.com/rahulchatt26/restraunt-rating-prediction/blob/main/images/PIPELINE%202.png)
 
 
 ### Step 1: Clone the repository
