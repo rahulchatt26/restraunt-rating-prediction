@@ -5,6 +5,7 @@ artifact/
 logs/
 test.ipynb
 saved_models/
+prediction/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
